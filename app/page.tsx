@@ -6,11 +6,15 @@ import { BiListPlus } from 'react-icons/bi';
 
 
 export default function Home() {
+
+  let tarefas = ['batata','brocolis'];
+  tarefas.map(() => "")
+
   return (
     <section className='alinhar'>
       <Input/>
       <Buttom>
-        <a href="http://youtube.com"><BiListPlus className='icon'/></a>
+        <a><BiListPlus className='icon'/></a>
       </Buttom>
     </section>
   )
