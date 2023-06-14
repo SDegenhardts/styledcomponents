@@ -17,17 +17,20 @@ export default function List(props){
     const handleSubmit = e => {
     e.preventDefault();
 
-    // props.onSubmit({
-    //     id: Math.floor(Math.random() * 10000),
-    //     text: input
-    // })
+    props.onSubmit({
+        id: Math.floor(Math.random() * 10000),
+        text: input
+    })
 
     setInput('');
 
 };
     return(
         <section className='alinhar' onSubmit={handleSubmit}>
-        <Input/>
+        <Input
+        value={input}
+        onChange={handleChange}
+        />
         <Buttom>
           <a><BiListPlus className='icon'/></a>
         </Buttom>
