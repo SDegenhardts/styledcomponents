@@ -4,8 +4,11 @@ import React, { Children, useState } from 'react';
 import styled from 'styled-components';
 
 export default function Input() {
+
+    const [textInput, setTextInput] = useState
+
     return(
-        <Myinput placeholder='Nova Tarefa'/>
+        <Myinput onInput={(e) => {setTextInput}} placeholder='Nova Tarefa'/>
     )
 }
 
