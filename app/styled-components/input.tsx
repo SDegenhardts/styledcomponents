@@ -5,10 +5,11 @@ import styled from 'styled-components';
 
 export default function Input() {
 
-    const [textInput, setTextInput] = useState
+    // const [textInput, setTextInput] = useState
+    // onInput={(e) => {setTextInput}}
 
     return(
-        <Myinput onInput={(e) => {setTextInput}} placeholder='Nova Tarefa'/>
+        <Myinput placeholder='Nova Tarefa'/>
     )
 }
 

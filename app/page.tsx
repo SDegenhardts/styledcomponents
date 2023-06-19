@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 export default function Home() {
  
-  const [textInput, setTextInput] = useState
+  // const [textInput, setTextInput] = useState
 
   return (
     // <section>
@@ -20,7 +20,7 @@ export default function Home() {
       <Buttom>
         <a><BiListPlus className='icon'/></a>
       </Buttom>
-      
+  
     </section>
   )
 }
