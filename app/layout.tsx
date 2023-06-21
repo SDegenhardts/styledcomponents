@@ -1,6 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-import StyledJsxRegistry from '../app/styled-components/registry'
+import StyledJsxRegistry from './lib/registry'
 import Buttom from './styled-components/buttom'
  
 export default function RootLayout({

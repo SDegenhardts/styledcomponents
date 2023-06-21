@@ -26,7 +26,7 @@ const Wrapper = styled.button`
         color: #000000;
         &:hover {
             transition: 0.3s;
-            color: #ffee00;
+            color: #4e4901;
         }
     }
     .icon{
